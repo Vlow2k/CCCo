@@ -1,0 +1,48 @@
+:root {
+  --brown: #7d451f;
+  --orange: #f77e2a;
+  --text-h: #1f1b16;
+  --text: #5f5347;
+  --bg: #fffdf8;
+  --surface: #ffffff;
+  --border: rgba(146, 118, 91, 0.15);
+  --shadow: rgba(118, 87, 53, 0.12) 0 20px 45px -18px;
+  --sans: Inter, system-ui, 'Segoe UI', sans-serif;
+  --heading: 'Inter', system-ui, 'Segoe UI', sans-serif;
+
+  font: 16px/1.75 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--sans);
+}
